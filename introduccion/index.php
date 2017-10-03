@@ -16,6 +16,9 @@ $v='?v='.date('YmdHis');
 			position: relative;
 			top: -20px;
 		}
+		#myCarousel .carousel-inner .item img{
+			width:100%
+		}
 		</style>
 	</head>
 <body> 

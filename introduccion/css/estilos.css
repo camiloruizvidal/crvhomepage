@@ -1,1 +1,14 @@
 body{background-color:#c3c3c3;}
+
+<style>
+		#contenido{
+		    padding-top: 10px;
+		}
+		#myCarousel {
+			position: relative;
+			top: -20px;
+		}
+		#myCarousel .carousel-inner .item img{
+			width:100%
+		}
+		</style>

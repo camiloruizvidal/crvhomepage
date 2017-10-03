@@ -42,12 +42,12 @@ $v='?v='.date('YmdHis');
 					<li><a href="">CONTACTENOS</a></li>
 				</ul>
 				<form action="" class="navbar-form navbar-right role="search">
-				    <div class="form group">
-					    <input type="text" class="form-control" placeholder="buscar">
+					<div class="input-group">
+					    <span class="input-group-addon" >					
+   								<span class="glyphicon glyphicon-search"></span>
+						</span>
+					  <input type="text" class="form-control" placeholder="buscar">
 					</div>
-					<button type="submit" class="btn btn-primary">
-					    <span class="glyphicon glyphicon-search"></span>
-					</button>
 				</form>
 			</div>
 		</div>

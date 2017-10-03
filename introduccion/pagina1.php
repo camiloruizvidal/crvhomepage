@@ -69,7 +69,7 @@ $v='?v='.date('YmdHis');
 						<br/>
 						En CRV - Soluciones Software entendemos que se necesita de un excelente conocimiento de su organización y su negocio para ofrecerle soluciones de TI con los más altos estándares de calidad y evolucionen con las necesidades de su compañía. Ofrecemos soluciones de software a la medida de cualquier escala ya que sabemos utilizar el poder de diferentes tecnologías e integrarlas de manera efectiva.
 					</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Detalle de nuestros servicios</a>
+                    <a href="pagina2.php" class="page-scroll btn btn-default btn-xl sr-button">Detalle de nuestros servicios</a>
                 </div>
             </div>
         </div>

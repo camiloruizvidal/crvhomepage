@@ -1,11 +1,14 @@
-<!DOCTYPE html>
+<?php
+$v='?v='.date('YmdHis');
+?><!DOCTYPE html>
 <html lang="es">
 <head>
       <meta charset="UTF-8">
 	  <title>Document</title>
 	  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	  <link rel="stylesheet" href="css/bootstrap.min.css">
-	  <link rel="stylesheet" href="css/estilos.css">
+	  <link rel="stylesheet" href="css/estilos.css<?php echo $v; ?>">
+		
 	</head>
 <body> 
 <header>
@@ -18,12 +21,12 @@
 				  <span class="icon-bar"></span>
 				  <span class="icon-bar"></span>
 				</button>
-				<a href="" class="navbar-brand">CRV SOLUCIONES SOFTWARE</a>
+				<a href="index.html" class="navbar-brand">CRV SOLUCIONES SOFTWARE</a>
 			</div>
 			<!-- inicio del menu delapagina -->
 			<div class="collapse navbar-collapse" id="navegacion-jg">
 			    <ul class="nav navbar-nav">
-				    <li><a href="">QUIENES SOMOS</a></li>
+				    <li><a href="pagina1.html">QUIENES SOMOS</a></li>
 					<li class="dropdown">
 					    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">
 						   SERVICIOS <span class="caret"></span>
@@ -39,12 +42,12 @@
 					<li><a href="">CONTACTENOS</a></li>
 				</ul>
 				<form action="" class="navbar-form navbar-right role="search">
-				    <div class="form group">
-					    <input type="text" class="form-control" placeholder="buscar">
+					<div class="input-group">
+					    <span class="input-group-addon" >					
+   								<span class="glyphicon glyphicon-search"></span>
+						</span>
+					  <input type="text" class="form-control" placeholder="buscar">
 					</div>
-					<button type="submit" class="btn btn-primary">
-					    <span class="glyphicon glyphicon-search"></span>
-					</button>
 				</form>
 			</div>
 		</div>

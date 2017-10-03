@@ -39,7 +39,7 @@ $v='?v='.date('YmdHis');
 						</ul>
 					</li>
 					<li><a href="">PORTAFOLIO</a></li>
-					<li><a href="">CONTACTENOS</a></li>
+					<li><a href="pagina4.php">CONTACTENOS</a></li>
 				</ul>
 				<form action="" class="navbar-form navbar-right role="search">
 					<div class="input-group">

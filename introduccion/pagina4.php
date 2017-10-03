@@ -7,6 +7,7 @@ $v='?v='.date('YmdHis');
 	  <title>Document</title>
 	  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 	  <link rel="stylesheet" href="css/estilos.css<?php echo $v; ?>">
 		
 	</head>
@@ -21,12 +22,12 @@ $v='?v='.date('YmdHis');
 				  <span class="icon-bar"></span>
 				  <span class="icon-bar"></span>
 				</button>
-				<a href="index.html" class="navbar-brand">CRV SOLUCIONES SOFTWARE</a>
+				<a href="index.php" class="navbar-brand">CRV SOLUCIONES SOFTWARE</a>
 			</div>
 			<!-- inicio del menu delapagina -->
 			<div class="collapse navbar-collapse" id="navegacion-jg">
 			    <ul class="nav navbar-nav">
-				    <li><a href="pagina1.html">QUIENES SOMOS</a></li>
+				    <li><a href="pagina1.php">QUIENES SOMOS</a></li>
 					<li class="dropdown">
 					    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">
 						   SERVICIOS <span class="caret"></span>
@@ -53,6 +54,33 @@ $v='?v='.date('YmdHis');
 		</div>
 		
 </header>
+<br>
+ <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Denos el gusto de atenderlo!</h2>
+                    <hr class="primary">
+                    <p>Si desea ponerse en contacto con nosotros envianos un correo o contactenos!</p>
+                </div>
+				<br>
+				<br>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+					<br>
+					<br>
+                    <p><a href="tel:+573186234042">(+57) 318-623 4042</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+					<br>
+					<br>
+					<p><a href="mailto:info@solucionescrv.com">info@solucionescrv.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+	
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

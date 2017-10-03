@@ -22,7 +22,7 @@ $v='?v='.date('YmdHis');
 				  <span class="icon-bar"></span>
 				  <span class="icon-bar"></span>
 				</button>
-				<a href="index.html" class="navbar-brand">CRV SOLUCIONES SOFTWARE</a>
+				<a href="index.php" class="navbar-brand">CRV SOLUCIONES SOFTWARE</a>
 			</div>
 			<!-- inicio del menu delapagina -->
 			<div class="collapse navbar-collapse" id="navegacion-jg">
@@ -40,7 +40,7 @@ $v='?v='.date('YmdHis');
 						</ul>
 					</li>
 					<li><a href="">PORTAFOLIO</a></li>
-					<li><a href="">CONTACTENOS</a></li>
+					<li><a href="pagina4.php">CONTACTENOS</a></li>
 				</ul>
 				<form action="" class="navbar-form navbar-right role="search">
 					<div class="input-group">
@@ -54,6 +54,8 @@ $v='?v='.date('YmdHis');
 		</div>
 		
 </header>
+<br>
+<br>
 
     <section id="services">
         <div class="container">
@@ -64,6 +66,8 @@ $v='?v='.date('YmdHis');
                 </div>
             </div>
         </div>
+		<br>
+		<br>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">

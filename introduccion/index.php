@@ -39,7 +39,7 @@ $v='?v='.date('YmdHis');
 						</ul>
 					</li>
 					<li><a href="">PORTAFOLIO</a></li>
-					<li><a href="">CONTACTENOS</a></li>
+					<li><a href="pagina4.php">CONTACTENOS</a></li>
 				</ul>
 				<form action="" class="navbar-form navbar-right role="search">
 					<div class="input-group">
@@ -96,7 +96,7 @@ $v='?v='.date('YmdHis');
 <div id"contenido" class="container-fluid">
 	<div class="col-md-12">
 		<div class="text-center">
-			<a href="pagina2.html" class="btn btn-primary"> ir al sitio </a>
+			<a href="pagina1.php" class="btn btn-primary"> ir al sitio </a>
 		</div>
 	</div>
 </div>

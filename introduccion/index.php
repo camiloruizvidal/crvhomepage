@@ -25,7 +25,9 @@ $v='?v='.date('YmdHis');
 			</div>
 			<!-- inicio del menu delapagina -->
 			<div class="collapse navbar-collapse" id="navegacion-jg">
-			    <ul class="nav navbar-nav">
+			    
+				<ul class="nav navbar-nav">
+				
 				    <li><a href="pagina1.php">QUIENES SOMOS</a></li>
 					<li class="dropdown">
 					    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">
@@ -41,6 +43,8 @@ $v='?v='.date('YmdHis');
 					<li><a href="">PORTAFOLIO</a></li>
 					<li><a href="pagina4.php">CONTACTENOS</a></li>
 				</ul>
+				
+				
 				<form action="" class="navbar-form navbar-right role="search">
 					<div class="input-group">
 					    <span class="input-group-addon" >					
@@ -51,7 +55,7 @@ $v='?v='.date('YmdHis');
 				</form>
 			</div>
 		</div>
-		
+		</nav>
 </header>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -61,7 +65,6 @@ $v='?v='.date('YmdHis');
     <li data-target="#myCarousel" data-slide-to="1"></li>
 	<li data-target="#myCarousel" data-slide-to="1"></li>
 	<li data-target="#myCarousel" data-slide-to="1"></li>
-   
   </ol>
 
   <!-- Wrapper for slides -->
@@ -93,6 +96,8 @@ $v='?v='.date('YmdHis');
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+
 <div id"contenido" class="container-fluid">
 	<div class="col-md-12">
 		<div class="text-center">
@@ -103,8 +108,8 @@ $v='?v='.date('YmdHis');
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>﻿
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
 	<!--<script src="js/bootstrap.min.js<?php echo $v;?>"></script>﻿-->
 	</body>
 </html>

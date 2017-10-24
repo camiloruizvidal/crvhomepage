@@ -2,13 +2,13 @@
 
 class ModNoticeRencet
 {
-    public static function getNotices(&$params)
+    public static function getNotices()
 	{
-		$cant=$params->get('cant');
+		$cant=5;//$params->get('cant');
 		$ds=DIRECTORY_SEPARATOR;
 		$html= '';
 		$con = new JConfig();
-		$db = &JFactory::getDBO();
+		@$db = &JFactory::getDBO();
 		$sql = "SELECT 
 			  concat(`#__categories`.`id`, '-', `#__categories`.`alias`) AS `url_cat`,
 			  concat(`#__content`.`id`, '-', `#__content`.`alias`) AS `url_art`,
@@ -39,16 +39,16 @@ class ModNoticeRencet
 				$url="templates{$ds}crvtemplate{$ds}img{$ds}Logo.jpg";
 			}
 			$temp->introtext=substr(html_entity_decode(strip_tags($temp->introtext)),0,1000);
-			$texto=ereg_replace("( ){2,}"," ",$temp->introtext);  
+			$texto=$temp->introtext;
 			$html.='    
 			<div class="thumbnail">
 			<div class="row">
             <div class="col-md-4">
-                <img class="img-responsive img-notice" src="'.$url.'" alt="' . $temp->title . '">
+                <a href="' . $temp->url . '"><img class="img-responsive img-notice" src="'.$url.'" alt="' . $temp->title . '"></a>
             </div>
             <div class="col-md-8">
                 <div class="caption">
-                    <h3>' . $temp->title . '</h3>
+                    <a href="' . $temp->url . '"><h3>' . $temp->title . '</h3></a>
                     <p>' . $texto . '...</p>
                     
                     <p>

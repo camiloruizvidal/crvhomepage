@@ -82,7 +82,6 @@
          <div class="col-md-12">
             <jdoc:include type="component" />
             <jdoc:include type="modules" name="debug" />
-            <jdoc:include type="modules" name="position-noticias" />
          </div>
 		<div class="col-md-12" id="footer_div">
                     <footer class="footer">
@@ -96,7 +95,7 @@
 							</div>
 							<div class="col-md-3">
 								<h3>ULTIMAS NOTICIAS</h3>
-								<jdoc:include type="modules" name="position-noticiasrecientes" />
+								            <jdoc:include type="modules" name="position-noticias" />
 							</div>
 					<div class="col-md-3">
 						<h3>CONTACTO</h3>

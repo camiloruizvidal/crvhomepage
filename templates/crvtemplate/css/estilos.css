@@ -16,3 +16,25 @@ body
 {
 	width:100%;
 }
+#footer_div{
+    padding-right: 0px; 
+    padding-left: 0px; 
+}
+.footer{
+    background-color: #1A2112;
+}
+#copy-rigth a{
+    text-decoration: none;
+    color: #FFF;
+}
+#copy-rigth img {
+    width: 50px;
+}
+#copy-rigth {
+    text-align: center;
+    font-size: 19px;
+}
+footer {
+    color: #C5C5C5;
+    padding-bottom: 20px;
+}

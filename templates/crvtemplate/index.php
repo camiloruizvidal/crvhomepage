@@ -10,6 +10,7 @@
       <link rel="stylesheet" href="<?php echo $tpath; ?>/css/estilos.css<?php echo $v; ?>">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="<?php echo $tpath; ?>/js/bootstrap.min.js"></script>﻿
+      <script src="<?php echo $tpath; ?>/css/bootstrap.min.js"></script>﻿
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
       <link rel="apple-touch-icon-precomposed" href="<?php echo $tpath; ?>/images/apple-touch-icon-57x57-precomposed.png">
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo $tpath; ?>/images/apple-touch-icon-72x72-precomposed.png">
@@ -83,17 +84,48 @@
             <jdoc:include type="modules" name="debug" />
             <jdoc:include type="modules" name="position-noticias" />
          </div>
-         <footer class="footer">
-            <div class="col-md-4">
-               Columna 1
-            </div>
-            <div class="col-md-4">
-               Columna 2
-            </div>
-            <div class="col-md-4">
-               Columna 3
-            </div>
-         </footer>
-      </div>
-   </body>
+		<div class="col-md-12" id="footer_div">
+                    <footer class="footer">
+                        <div class="container">
+                            <div class="col-md-3">
+								<h3>SOBRE NOSOTROS</h3>
+								<p>POLITECNICO LATINOAMERICANO DEL NORTE
+							Resolución N°. 20131700005164, Febrero 7 de 2013, Resolución N°. 000463, Abril 1 de 2009- Resolución N°.0632, Febrero 2 de 2008
+							Secretaría de Educación, Cultura y Deporte del Municipio Certificado de Popayán
+							Carrera 5 # 3-81 -Centro Historico - Tel:(2)8390747-Popayán (Colombia)</p>
+							</div>
+							<div class="col-md-3">
+								<h3>ULTIMAS NOTICIAS</h3>
+								<ul>
+								<li><a href="/8-noticias/185-fiesta-de-aniversario">FIESTA DE ANIVERSARIO </a></li>
+							<li><a href="/8-noticias/184-11-aniversario-politecnico-latinoamericano-del-norte">11° ANIVERSARIO  POLITÉCNICO LATINOAMERICANO DEL NORTE</a></li>
+							<li><a href="/8-noticias/183-sala-de-simulacion-politecnico-latinoamericano-del-norte">SALA DE SIMULACIÓN POLITÉCNICO LATINOAMERICANO DEL NORTE</a></li>
+							<li><a href="/8-noticias/182-noticia-2">NOTICIA 1</a></li>
+							<li><a href="/8-noticias/180-delfin">delfin</a></li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<h3>CONTACTO</h3>
+								Direccion: <a href="https://www.google.com/maps/place/Politecnico+Latinoamericano+Del+Norte/@2.4421009,-76.6069539,17z/data=!4m5!3m4!1s0x8e30030f8e9a9279:0x5e6fe39fea57bb33!8m2!3d2.4421009!4d-76.6047652" target="_blank">Calle con carrera Popayán Cauca Colombia</a><br>
+								Telefono: <a href="tel:8369000">8369000</a><br>
+								Email: <a href="mailto:inf@solucionescrv.com">inf@solucionescrv.com</a>
+								<script>$(function()
+								{
+									$('#tel2').html('<a class="link" href="tel:Prueba de telefono"><i class="glyphicon glyphicon-phone-alt"></i> Prueba de telefono</a>');
+								});
+								</script>
+							</div>
+							<div class="col-md-3">
+								<h3>REDES SOCIALES</h3>
+								<a href="https://www.facebook.com/Politecnico-Latinoamericano-del-Norte-236525263194338/?fref=ts" target="_blank"><img src="http://politecnico.grupotriunfar.com/templates/crvtemplate/img/icons/fb.jpg" alt="Facebook" style="width: 40px;"></a><a href="https://www.youtube.com/watch?v=Wn3ANCGDbO0" target="_blank"><img src="http://politecnico.grupotriunfar.com/templates/crvtemplate/img/icons/youtube.png" alt="Youtube" style="width: 40px;"></a></div>
+
+														<div class="col-md-12">
+															<div id="copy-rigth">
+																<a href="http://solucionescrv.com" target="_blank">DISEÑO WEB POR <img src="<?php echo $tpath; ?>/img/icons/logo-crv.png" alt="logo crv"> SOLUCIONES SOFTWARE</a>
+															</div>
+														</div>
+													</div>
+												</footer>
+											</div>
+	</body>
 </html>

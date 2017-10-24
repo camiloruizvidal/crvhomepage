@@ -34,6 +34,7 @@
 		<position>debug</position>
 		<position>position-navbar</position>
 		<position>position-noticias</position>
+		<position>noticiasrecientes</position>
 	</positions>
 	
 </extension>

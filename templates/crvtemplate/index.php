@@ -110,9 +110,8 @@
 					<div class="col-md-3">
 						<h3>REDES SOCIALES</h3>
 						<a href="https://www.facebook.com/solucionescrv/" target="_blank">
-							<img src="http://politecnico.grupotriunfar.com/templates/crvtemplate/img/icons/fb.jpg" alt="Facebook" style="width: 40px;">
+							<img src="<?php echo $tpath; ?>/img/descarga.png" alt="descarga" style="width: 40px;">
 						</a>
-						<link rel="stylesheet" href="<?php echo $tpath; ?>/img/descarga.png"></div>
 					<div class="col-md-12">
 						<div id="copy-rigth">
 							<a href="http://solucionescrv.com" target="_blank">DISEÑO WEB POR <img src="<?php echo $tpath; ?>/img/icons/logo-crv.png" alt="logo crv"> SOLUCIONES SOFTWARE</a>

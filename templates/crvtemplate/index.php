@@ -88,10 +88,9 @@
                         <div class="container">
                             <div class="col-md-3">
 								<h3>SOBRE NOSOTROS</h3>
-								<p>POLITECNICO LATINOAMERICANO DEL NORTE
-							Resolución N°. 20131700005164, Febrero 7 de 2013, Resolución N°. 000463, Abril 1 de 2009- Resolución N°.0632, Febrero 2 de 2008
-							Secretaría de Educación, Cultura y Deporte del Municipio Certificado de Popayán
-							Carrera 5 # 3-81 -Centro Historico - Tel:(2)8390747-Popayán (Colombia)</p>
+								<p>CRV SOLUCIONES SOFTWARE 
+							FUNDACION AÑO 2015
+							CRA 48a NUMERO 2-24 - LOS NARANJOS - Tel:3186234042-Popayán (Colombia)</p>
 							</div>
 							<div class="col-md-3">
 								<h3>ULTIMAS NOTICIAS</h3>
@@ -99,8 +98,8 @@
 							</div>
 					<div class="col-md-3">
 						<h3>CONTACTO</h3>
-								Direccion: <a href="https://www.google.com/maps/place/Politecnico+Latinoamericano+Del+Norte/@2.4421009,-76.6069539,17z/data=!4m5!3m4!1s0x8e30030f8e9a9279:0x5e6fe39fea57bb33!8m2!3d2.4421009!4d-76.6047652" target="_blank">Calle con carrera Popayán Cauca Colombia</a><br>
-								Telefono: <a href="tel:8369000">8369000</a><br>
+								Direccion: <a href="https://www.google.com.co/maps/place/Cra.+48,+Popay%C3%A1n,+Cauca/@2.4595132,-76.6386335,17z/data=!3m1!4b1!4m8!1m2!2m1!1scra+48a+numero+2-24!3m4!1s0x8e30034dccf9dad3:0xea81615534e6eed2!8m2!3d2.4595132!4d-76.6364448?dcr=0" target="_blank">CARRERA 48a NUMERO 2-24</a><br>
+								Telefono: <a href="tel:3186234042">3186234042</a><br>
 								Email: <a href="mailto:inf@solucionescrv.com">inf@solucionescrv.com</a>
 								<script>$(function()
 								{
@@ -110,7 +109,7 @@
 					</div>
 					<div class="col-md-3">
 						<h3>REDES SOCIALES</h3>
-						<a href="https://www.facebook.com/Politecnico-Latinoamericano-del-Norte-236525263194338/?fref=ts" target="_blank"><img src="http://politecnico.grupotriunfar.com/templates/crvtemplate/img/icons/fb.jpg" alt="Facebook" style="width: 40px;"></a><a href="https://www.youtube.com/watch?v=Wn3ANCGDbO0" target="_blank"><img src="http://politecnico.grupotriunfar.com/templates/crvtemplate/img/icons/youtube.png" alt="Youtube" style="width: 40px;"></a></div>
+						<a href="https://www.facebook.com/solucionescrv/" target="_blank"><img src="http://politecnico.grupotriunfar.com/templates/crvtemplate/img/icons/fb.jpg" alt="Facebook" style="width: 40px;"></a><link rel="stylesheet" href="<?php echo $tpath; ?>/img/descarga.png"></div>
 					<div class="col-md-12">
 						<div id="copy-rigth">
 							<a href="http://solucionescrv.com" target="_blank">DISEÑO WEB POR <img src="<?php echo $tpath; ?>/img/icons/logo-crv.png" alt="logo crv"> SOLUCIONES SOFTWARE</a>

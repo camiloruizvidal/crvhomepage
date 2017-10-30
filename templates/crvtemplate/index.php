@@ -110,7 +110,10 @@
 					<div class="col-md-3">
 						<h3>REDES SOCIALES</h3>
 						<a href="https://www.facebook.com/solucionescrv/" target="_blank">
-							<img src="<?php echo $tpath; ?>/img/descarga.png" alt="descarga" style="width: 40px;">
+							<img src="<?php echo $tpath; ?>/img/facebook.png" alt="facebook" style="width: 40px;">
+						</a>
+						<a href="https://co.linkedin.com/company/crv-soluciones-software" target="_blank">
+							<img src="<?php echo $tpath; ?>/img/descarga.png" alt="linkedin" style="width: 40px;">
 						</a>
 					<div class="col-md-12">
 						<div id="copy-rigth">

@@ -88,9 +88,9 @@
                         <div class="container">
                             <div class="col-md-3">
 								<h3>SOBRE NOSOTROS</h3>
-								<p>CRV SOLUCIONES SOFTWARE 
-							FUNDACION AÑO 2015
-							CRA 48a NUMERO 2-24 - LOS NARANJOS - Tel:3186234042-Popayán (Colombia)</p>
+								<p>CRV SOLUCIONES SOFTWARE <br> 
+							FUNDACION AÑO 2015 <br>
+							CRA 48a NUMERO 2-24 <br>- LOS NARANJOS -<br> Tel:3186234042-Popayán (Colombia)</p>
 							</div>
 							<div class="col-md-3">
 								<h3>ULTIMAS NOTICIAS</h3>
@@ -98,6 +98,7 @@
 							</div>
 					<div class="col-md-3">
 						<h3>CONTACTO</h3>
+						        Responzable: <a href="https://co.linkedin.com/in/camilo-ernesto-ruiz-vidal-72251b9a" target="_blank">ING. CAMILO ERNESTO RUIZ VIDAL</a><br> 
 								Direccion: <a href="https://www.google.com.co/maps/place/Cra.+48,+Popay%C3%A1n,+Cauca/@2.4595132,-76.6386335,17z/data=!3m1!4b1!4m8!1m2!2m1!1scra+48a+numero+2-24!3m4!1s0x8e30034dccf9dad3:0xea81615534e6eed2!8m2!3d2.4595132!4d-76.6364448?dcr=0" target="_blank">CARRERA 48a NUMERO 2-24</a><br>
 								Telefono: <a href="tel:3186234042">3186234042</a><br>
 								Email: <a href="mailto:inf@solucionescrv.com">inf@solucionescrv.com</a>

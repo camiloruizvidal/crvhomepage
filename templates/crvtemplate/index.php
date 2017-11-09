@@ -8,9 +8,9 @@
       <jdoc:include type="head" />
       <link rel="stylesheet" href="<?php echo $tpath; ?>/css/bootstrap.min.css">
       <link rel="stylesheet" href="<?php echo $tpath; ?>/css/estilos.css<?php echo $v; ?>">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="<?php echo $tpath; ?>/js/bootstrap.min.js"></script>﻿
-      <script src="<?php echo $tpath; ?>/css/bootstrap.min.js"></script>﻿
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
       <link rel="apple-touch-icon-precomposed" href="<?php echo $tpath; ?>/images/apple-touch-icon-57x57-precomposed.png">
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo $tpath; ?>/images/apple-touch-icon-72x72-precomposed.png">
@@ -18,6 +18,12 @@
       <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo $tpath; ?>/images/apple-touch-icon-144x144-precomposed.png">
    </head>
    <body class="<?php echo (($menu->getActive() == $menu->getDefault()) ? ('front') : ('site')).' '.$active->alias.' '.$pageclass; ?>">
+   <style>
+   #contenido_center {
+    text-align: center;
+    margin-top: 50px;
+}
+   </style>
       <div class="container-alt">
          <header>
             <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">

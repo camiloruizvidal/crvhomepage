@@ -39,17 +39,14 @@ class v
 			{
 				$url="templates{$ds}crvtemplate{$ds}img{$ds}Logo.jpg";
 			}
-			$temp->introtext=substr(html_entity_decode(strip_tags($temp->introtext)),0,1000);
+			$temp->introtext=html_entity_decode(strip_tags($temp->introtext));
 			$texto=$temp->introtext;
 			$html.='    
             <div class="col-md-4">
-                <div class="hover01 column"><figure><a href="' . $temp->url . '" class="img_fb"><img class="img-responsive img_servicios" src="'.$url.'" alt="' . $temp->title . '"></a></figure></div>
+                <div class="hover01 column"><figure><a href="#" class="img_fb"><img class="img-responsive img_servicios" src="'.$url.'" alt="' . $temp->title . '"></a></figure></div>
                 <div class="caption">
-                    <a href="' . $temp->url . '"><h3>' . $temp->title . '</h3></a>
-                    <p>' . $texto . '...</p>
-                    <p>
-                        <a href="' . $temp->url . '" class="more">Ver mas..</a> 
-                    </p>
+                    <h3>' . $temp->title . '</h3>
+                    ' . $texto . '
                 </div>
             </div>';
 		}

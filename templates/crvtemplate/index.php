@@ -57,16 +57,16 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                <div class="item active">
-                  <img src="<?php echo $tpath; ?>/img/presentacion1.jpg" alt="">
+                  <img src="<?php echo $tpath; ?>/img/presentacion1.jpg<?php echo $v;?>" alt="">
                </div>
                <div class="item">
-                  <img src="<?php echo $tpath; ?>/img/presentacion2.jpg" alt="">
+                  <img src="<?php echo $tpath; ?>/img/presentacion2.jpg<?php echo $v;?>" alt="">
                </div>
                <div class="item">
-                  <img src="<?php echo $tpath; ?>/img/presentacion3.jpg" alt="">
+                  <img src="<?php echo $tpath; ?>/img/presentacion3.jpg<?php echo $v;?>" alt="">
                </div>
                <div class="item">
-                  <img src="<?php echo $tpath; ?>/img/presentacion5.jpg" alt="">
+                  <img src="<?php echo $tpath; ?>/img/presentacion5.jpg<?php echo $v;?>" alt="">
                </div>
             </div>
             <!-- Left and right controls -->
